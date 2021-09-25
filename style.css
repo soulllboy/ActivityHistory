@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://raw.githubusercontent.com/soulllboy/testrepsoul01/blob/main/folder03/SF-Pro-Display-Regular.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://raw.githubusercontent.com/soulllboy/testrepsoul01/blob/main/folder03/SF-Pro-Display-Semibold.woff') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://raw.githubusercontent.com/soulllboy/testrepsoul01/blob/main/folder03/SF-Pro-Display-Bold.woff') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  background: #F2F2F2;
+  font-family: 'SF Pro Display';
+}
+h1 {
+  height: 28px;
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  
+}
+.cont_all {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 476px;
+  height: 474px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+  margin: 213px auto;
+}
+.btn_x {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 32px;
+  top: 22px;
+}
+.cont_head {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;  
+  align-items: center;
+  width: 476px;
+  height: 64px;
+  border-bottom: 1px solid #E8E8E8;
+  padding: 0 32px;
+}
+.cont_body {
+  box-sizing: border-box;
+  display: flex;    
+  flex-direction: column;
+  justify-content: space-between;
+  width: 412px;
+  height: 354px;
+  margin: 24px 32px 32px;
+}
+.cont_line {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 20px 16px 160px 22px 6px 16px 128px;  
+  grid-template-rows: 14px 7px 3px 3px 7px 14px;
+  width: 368px;
+  height: 46px;
+  align-items: center;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.col_green {
+  background: #95DE64;
+}
+.col_grey {
+  background: #E8E8E8;
+}
+.gr_c01 {
+  grid-column: 1 / 2;  
+}
+.gr_c02 {
+  grid-column: 3 / 4;  
+}
+.gr_c03 {
+  grid-column: 5 / 6;  
+}
+.gr_c04 {
+  grid-column: 7 / 8;  
+}
+.gr_r01 {
+  grid-row: 1 / 4;  
+  height: 24px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #595959;
+}
+.gr_r02 {
+  grid-row: 4 / 7;  
+  height: 22px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #8C8C8C;
+}
+.gr_r03 {
+  grid-row: 2 / 6;  
+}
+.gr_r04 {
+  grid-row: 3 / 5;  
+}
+.txt_14 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+}
+#txt_dark {
+  color: #262626;
+}
